@@ -1,0 +1,109 @@
+body{
+    
+    background-color: rgba(165, 47, 47, 0.562);
+    background-size: cover;
+    background-position: relative;
+}
+.openbox{
+        
+        width: 380px;
+        height: 600px;
+        background-color: white;
+        top: 60px;
+        bottom: 50px;
+        left: 40%;
+        right: -40%;
+        position: relative;
+        box-sizing: border-box;
+        padding: 70px 40px;
+        border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    top: 10%;
+    bottom: 90%;
+    margin: 0;
+    padding: 0 0 20px;
+}
+.openbox .x1{
+    font-size: 20px;
+}
+.openbox .x2{
+    font-size: 20px;
+}
+.openbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom:1px solid gray;
+    outline: none;
+    
+}
+.openbox .h1{
+    border: none;
+    outline: none;
+    color: blue;
+    position: absolute;
+    top: 320px;
+    left: 240px;
+
+}
+.openbox .h2{
+    position: absolute;
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    top: 340px;
+    left: 140px;
+}
+    
+.openbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #28dad1;
+    transition: 0.5s;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #28dad1;
+    width: 280px;
+    font-weight: bold;
+    position: absolute;
+    top: 370px;
+    left: 50px;
+    
+}
+.openbox input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #03e9f4;
+    color: #fff;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+    
+  
+   
+            }
+
+.pikul{
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    position: absolute;
+    top: 420px;
+    left: 170px;
+}
+.openbox .h3{
+    position: absolute;
+    top: 500px;
+    left: 140px;
+}
+.openbox .h4{
+    position: absolute;
+    top: 530px;
+    left: 160px;
+}
+.openbox a:hover{
+    color: #03e9f4;
+}
+    
